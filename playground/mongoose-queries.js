@@ -1,8 +1,8 @@
 const {ObjectID} = require('mongodb');
 
 const {mongoose} = require('./../server/db/mongoose');
-const{Todo} = require('./../server/models/todo');
-const{User} = require('./../server/models/user');
+const {Todo} = require('./../server/models/todo');
+const {User} = require('./../server/models/user');
 
 
 User.findById('5b47ae1f92cf3f1cd1a99142').then((user) => {
